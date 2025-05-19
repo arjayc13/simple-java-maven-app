@@ -29,5 +29,10 @@ pipeline {
                    echo "Job Complete!"
                }
         }
+        stage ('Fixed Bug') {
+               steps {
+                   echo "Fixed, promised!"
+               }
+        }
     }
 }
